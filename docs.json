@@ -74,13 +74,7 @@
     "links": []
   },
 
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt"
-    ]
-  },
+  
 
   "footer": {
     "socials": {}
