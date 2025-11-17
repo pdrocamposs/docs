@@ -21,12 +21,7 @@
       {
         "tab": "Regras",
         "groups": [
-          {
-            "group": "Introdução",
-            "pages": [
-              "introducao/index"
-            ]
-          },
+          
           {
             "group": "Regulamento",
             "pages": [
