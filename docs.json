@@ -21,11 +21,11 @@
       {
         "tab": "Regras",
         "groups": [
-          
           {
             "group": "Regulamento",
             "pages": [
               "index",
+              "docs/regulamento/1-regras-gerais",
               "docs/regulamento/2-itens-de-gema",
               "docs/regulamento/3-amor-a-vida",
               "docs/regulamento/4-metagaming",
@@ -47,9 +47,15 @@
               "docs/regulamento/20-personagens-pcd",
               "docs/regulamento/21-visto-temporario"
             ]
-          },
+          }
+        ]
+      },
+
+      {
+        "tab": "Leis",
+        "groups": [
           {
-            "group": "Leis",
+            "group": "Legislação da Cidade",
             "pages": [
               "docs/leis/1-leis-gerais",
               "docs/leis/2-organizacoes-ilegais",
@@ -71,12 +77,24 @@
   },
 
   "navbar": {
-    "links": []
+    "links": [
+      {
+        "label": "Discord",
+        "href": "https://discord.gg/hydrarp",
+        "icon": "discord"
+      }
+    ]
   },
 
-  
-
-  "footer": {
-    "socials": {}
+ "footer": {
+  "socials": {
+    "instagram": "https://www.instagram.com/hydrarp.gg/",
+    "x-twitter": "https://x.com/hydrarpgg",
+    "youtube": "https://www.youtube.com/@hydrarpgg",
+    "discord": "https://www.discord.gg/hydrarp",
+    "earth-americas": "https://www.tiktok.com/@hydraofcc",
+    "website": "https://loja.hydrarp.com.br/"
   }
+}
+
 }
