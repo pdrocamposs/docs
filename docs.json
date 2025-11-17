@@ -1,122 +1,93 @@
 {
   "$schema": "https://mintlify.com/docs.json",
+  "name": "Hydra Roleplay - Regras Oficiais",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#8C52FF",
+    "light": "#A577FF",
+    "dark": "#6A3BCF"
   },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "asasasas"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
+
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
-  "navbar": {
-    "links": [
+
+  "favicon": "/favicon.svg",
+
+  "navigation": {
+    "tabs": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "tab": "Regras",
+        "groups": [
+          {
+            "group": "Introdução",
+            "pages": [
+              "introducao/index"
+            ]
+          },
+          {
+            "group": "Regulamento",
+            "pages": [
+              "regulamento/1-regras-gerais",
+              "regulamento/2-itens-de-gema",
+              "regulamento/3-amor-a-vida",
+              "regulamento/4-metagaming",
+              "regulamento/5-vdm",
+              "regulamento/6-rdm",
+              "regulamento/7-powergaming",
+              "regulamento/8-flaming",
+              "regulamento/9-combat-logging",
+              "regulamento/10-dark-rp",
+              "regulamento/11-anti-rp",
+              "regulamento/12-areas-safe",
+              "regulamento/13-uso-de-voip",
+              "regulamento/14-nomenclaturas",
+              "regulamento/15-golpes-financeiros",
+              "regulamento/16-personagens-extras",
+              "regulamento/17-streamers",
+              "regulamento/18-redes-sociais",
+              "regulamento/19-pd-de-personagem",
+              "regulamento/20-personagens-pcd",
+              "regulamento/21-visto-temporario"
+            ]
+          },
+          {
+            "group": "Leis",
+            "pages": [
+              "leis/1-leis-gerais",
+              "leis/2-organizacoes-ilegais",
+              "leis/3-pacificacoes",
+              "leis/4-corporacoes",
+              "leis/5-assaltos-sequestros",
+              "leis/6-abordagens-policiais",
+              "leis/7-porte-de-armas",
+              "leis/8-roubos"
+            ]
+          }
+        ]
       }
     ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+
+    "global": {
+      "anchors": []
     }
   },
+
+  "navbar": {
+    "links": []
+  },
+
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt"
+    ]
   },
+
   "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+    "socials": {}
   }
 }
